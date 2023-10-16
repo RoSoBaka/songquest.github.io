@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title> SongsQuest </title>
+
+</head>
+
+<body>
+
+	<header>
+		
+		
+		<h1 class="quest"> SongsQuest </h1>
+		
+		<img src="me1.jpg" class="logo">
+		
+		<div class="hero">
+		
+        <div class="headerNav">
+			<ul>
+				<li><a href="index.html">ABOUT</a></li>
+                <li><a href="songscovers.html">SONGS/COVERS</a></li>
+				<li><a href="equipment.html">EQUIPMENT</a></li>
+                <li><a href="request.html">REQUEST</a></li>
+			</ul>
+		</div>
+		
+		<nav>
+		
+		<ul class="hsocialIcons">
+			<a href=""><i class="fa-brands fa-facebook"></i></a>
+			<a href=""><i class="fa-brands fa-instagram"></i></a>
+			<a href=""><i class="fa-brands fa-linkedin"></i></a>
+			<a href=""><i class="fa-brands fa-twitter"></i></a>
+		</ul>
+        </nav>
+       
+    </div>
+		
+	</header>
+	
+	<div class="horizontal-line1"></div>
+
+	
+    <div class="container">
+        <form action="process_request.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="request">Your Song Cover Request:</label>
+            <textarea id="request" name="request" rows="4" required></textarea>
+            
+            <input type="submit" value="Submit Request">
+        </form>
+    </div>
+
+	<div class="horizontal-line2"></div>
+
+	<footer>
+	
+		<div class="footerContainer">
+			<div class="socialIcons">
+				<a href=""><i class="fa-brands fa-facebook"></i></a>
+				<a href=""><i class="fa-brands fa-instagram"></i></a>
+				<a href=""><i class="fa-brands fa-linkedin"></i></a>
+				<a href=""><i class="fa-brands fa-twitter"></i></a>
+			</div>
+		</div>
+		<div class="footerNav">
+			<ul>
+				<li><a href="index.html">ABOUT</a></li>
+                <li><a href="songscovers.html">SONGS/COVERS</a></li>
+				<li><a href="equipment.html">EQUIPMENT</a></li>
+                <li><a href="request.html">REQUEST</a></li>
+			</ul>
+		</div>
+		<div class="footerBottom">
+			<p> Copyright &copy;2023; Designed by <span class="designer">Roman Safonov</p>
+		</div>
+		
+	</footer>
+
+</body>
+
+</html>
